@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Empowering",
+      "heading": "Empowering Homeowners",
+      "description": "Simplifying home services for a stress-free, comfortable living experience.",
+      "link": "individual.html",
+      "imgSrc": "/images/landing/worker.png",
+      "alt": "individual",
+      "reverse": false,
+      "scale": true
+    },
+    {
+      "title": "Enabling",
+      "heading": "Enabling Businesses",
+      "description": "Providing reliable maintenance solutions for smoother operations and improved efficiency.",
+      "link": "business.html",
+      "imgSrc": "/images/landing/family.png",
+      "alt": "business",
+      "reverse": true,
+      "scale2": false
+    }
+  ]
+  

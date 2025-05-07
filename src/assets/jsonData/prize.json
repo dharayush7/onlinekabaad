@@ -1,0 +1,16 @@
+{
+    "forIndividuals": {
+      "title": "Our Service",
+      "items": [
+        
+        { "name": "Scrap Collection", "to": "/" },
+        { "name": "Zero Waste Society", "to": "/" },
+        { "name": "Vehicle Scrapping Service", "to": "/" },
+        { "name": "Shredding service", "to": "/" },
+        { "name": "Zero waste services", "to": "/" },
+        { "name": "Material Recovery Facility", "to": "/" }
+      
+      ]
+    }
+  }
+  

@@ -1,0 +1,103 @@
+
+*{
+  color: var(--fg-default-1);
+}
+
+
+
+
+
+/* General styles for the accordion */
+.accordion {
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+/* .accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  margin-bottom: 10px;
+} */
+
+.accordion-header {
+  background-color: #f8f9fa;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  padding: 15px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.accordion-header:hover {
+  background-color: #e2e6ea;
+}
+
+.accordion-body {
+  background-color: #ffffff;
+  padding: 20px;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.accordion-button {
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #009c1a;
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+}
+
+.accordion-button.collapsed {
+  color: #333;
+  background-color: transparent;
+}
+
+.accordion-item:last-child {
+  margin-bottom: 0;
+}
+
+.accordion-body p {
+  margin: 0;
+}
+
+/* Customizing the active accordion state */
+.accordion-button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+/* .accordion-item.active .accordion-header {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.accordion-item.active .accordion-button {
+  background-color: #007bff;
+  color: #fff;
+} */
+
+.accordion-button:focus, .accordion-header:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 156, 26, 0.25);
+}
+
+/* 
+@media (width < 780px) {
+  .header1{
+    display: none !important;
+  }
+  
+} */

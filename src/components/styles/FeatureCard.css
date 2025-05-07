@@ -1,0 +1,10 @@
+.zoom-effect {
+    /* transition: transform 0.3s ease in-out !important;  */
+    transform: scale(5) !important;
+    position: absolute ! important;
+    
+  } 
+
+  /* .zoom-effect:hover {
+    transform: scale(1.1) !important;
+  } */  

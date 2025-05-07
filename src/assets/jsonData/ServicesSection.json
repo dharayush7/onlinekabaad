@@ -1,0 +1,60 @@
+{
+    "servicesData": [
+      {
+        "title": "Scrap Collection",
+        "image": "images/services/scrap-collection.svg",
+        "description": "Digitised solution for the door-to-door free pickup of 40+ recyclables"
+      },
+      {
+        "title": "Zero Waste Society",
+        "image": "images/services/zero-waste-society.svg",
+        "description": "Serving the Residential Societies in achieving their zero waste goals."
+      },
+      {
+        "title": "Vehicle Scrapping Service",
+        "image": "images/services/vehicle-scrapping-services.svg",
+        "description": "Assisting people in getting rid of their old vehicles sustainably."
+      },
+      {
+        "title": "EPR Service",
+        "image": "images/services/extended-producer-responsibility.svg",
+        "description": "The Kabadiwala as a registered PRO, official collection & recycling partner helps in the compliance process of EPR."
+      },
+      {
+        "title": "Shredding Service",
+        "image": "images/services/paper-shredding-service.svg",
+        "description": "Aiding Businesses in the safe & secure disposal of their confidential documents."
+      },
+      {
+        "title": "Circular Economy Services",
+        "image": "images/services/circular-economy-services.svg",
+        "description": "Planning, designing, and successfully executing brand's CSR campaigns as per their objectives."
+      },
+      {
+        "title": "Zero Waste Services",
+        "image": "images/services/zero-waste-services.svg",
+        "description": "Serving the Institutes/Offices/Events in achieving their zero waste goals."
+      },
+      {
+        "title": "Dismantling Service",
+        "image": "images/services/dismantling-services.svg",
+        "description": "Providing holistic approach to implement circular solutions to the scrap disposal."
+      },
+      {
+        "title": "CRS Activity",
+        "image": "images/services/corporate-social-responsibility.svg",
+        "description": "Planning, designing, and successfully executing brand's CSR campaigns as per their objectives."
+      },
+      {
+        "title": "Material Recovery Facility",
+        "image": "images/services/material-social-responsibility.svg",
+        "description": "Collaborating to provide waste management services to ULB owned Material Recovery Facilities."
+      },
+      {
+        "title": "IEC Activity",
+        "image": "images/services/information-education-communication.svg",
+        "description": "Designing effective & innovative campaigns under IEC for bringing behavioral change in the masses."
+      }
+    ]
+  }
+  

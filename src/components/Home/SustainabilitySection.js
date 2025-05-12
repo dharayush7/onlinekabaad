@@ -1,8 +1,7 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import data from "../../assets/jsonData/SustainabilitySection.json";
 import "../styles/SustainabilitySection.css";
-import { useNavigate } from "react-router-dom";
 
 const SustainabilitySection = () => {
   const {
@@ -34,7 +33,7 @@ const SustainabilitySection = () => {
       )
     );
   };
-  const Navigate = useNavigate();
+
   return (
     <section id="aboutUs">
       <Container fluid className="d-flex align-items-center h-100 mb-5">
@@ -71,11 +70,7 @@ const SustainabilitySection = () => {
             </div>
 
             <div className="py-4">
-              <button
-                className="my-custom-button"
-              >
-                {buttonText}
-              </button>
+              <button className="my-custom-button">{buttonText}</button>
 
               {/* <Button
                 onClick={() => Navigate("business")}

@@ -1,15 +1,8 @@
 import React, { useState } from "react";
-import { Navbar, Container, Nav, Offcanvas } from "react-bootstrap";
-import {
-  FaBars,
-  FaTimes,
-  FaHome,
-  FaUser,
-  FaCog,
-  FaQuestionCircle,
-} from "react-icons/fa";
-import Header from "./Header";
+import { Navbar, Container, Offcanvas } from "react-bootstrap";
+import { FaBars } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 
 const MobileHeader = () => {
   const [show, setShow] = useState(false);
@@ -45,15 +38,20 @@ const MobileHeader = () => {
             to="/"
             className="d-flex align-items-center"
           >
-             <img src="./images/logo01.png" height={50} />
+            <img src="./images/logo01.png" height={50} alt="logo" />
           </Navbar.Brand>
           <div className="d-flex align-items-center">
             <button
               onClick={handleShow}
-              className="btn btn-link text-black p-1"
-              style={{ border: "none" }}
+              className="btn btn-link text-white p-1 bg-white"
             >
-              <FaBars size={24} />
+              <FaBars
+                size={24}
+                color="#fff"
+                style={{
+                  color: "white",
+                }}
+              />
             </button>
           </div>
         </Container>
@@ -66,22 +64,88 @@ const MobileHeader = () => {
         className="centered-offcanvas"
       >
         <Offcanvas.Header className="border-bottom bg-black">
-          <Offcanvas.Title><img src="./images/logo01.png" height={50} /></Offcanvas.Title>
+          <Offcanvas.Title>
+            <img src="./images/logo01.png" height={50} alt="logo" />
+          </Offcanvas.Title>
           <button
             type="button"
             className="btn-close "
             onClick={handleClose}
             aria-label="Close"
-            style={{color:"#fff",backgroundColor:"#fff"}}
-          >
-            
-          </button>
+            style={{ color: "#fff", backgroundColor: "#fff" }}
+          ></button>
         </Offcanvas.Header>
-        <Offcanvas.Body className="bg-black">
-          {/* <Nav className="flex-column gap-2">
-            <NavBar />
-          </Nav> */}
-          <Header />
+        <Offcanvas.Body
+          className="bg-black"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            placeItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <a
+            href="/#home"
+            onClick={handleClose}
+            style={{
+              fontSize: "30px",
+              color: "white",
+              fontWeight: "bold",
+              marginBottom: "30px",
+            }}
+          >
+            Home
+          </a>
+          <a
+            href="/#aboutUs"
+            onClick={handleClose}
+            style={{
+              fontSize: "30px",
+              color: "white",
+              fontWeight: "bold",
+              marginBottom: "30px",
+            }}
+          >
+            About Us
+          </a>
+          <a
+            href="/#services"
+            onClick={handleClose}
+            style={{
+              fontSize: "30px",
+              color: "white",
+              fontWeight: "bold",
+              marginBottom: "30px",
+            }}
+          >
+            Services
+          </a>
+          <a
+            href="/#contactUs"
+            onClick={handleClose}
+            style={{
+              fontSize: "30px",
+              color: "white",
+              fontWeight: "bold",
+              marginBottom: "30px",
+            }}
+          >
+            Contact Us
+          </a>
+          <Button
+            variant="outline-light"
+            as={NavLink}
+            to="/scrap-rates"
+            className="rate"
+            style={{
+              fontWeight: "bold",
+              backgroundColor: "#fff",
+              color: "black",
+              borderRadius: "20px",
+            }}
+          >
+            Check Rate List
+          </Button>
         </Offcanvas.Body>
       </Offcanvas>
     </>

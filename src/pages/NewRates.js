@@ -21,18 +21,19 @@ const NewRates = () => {
         }`}
       </style>
 
-
       <div className="home">
         <div className="fullwidth">
           <MobileHeader />
 
-          <div  className="header-main">
-            <Header isHome={false}/>
+          <div className="header-main">
+            <Header isHome={false} />
           </div>
 
-
           <div className="container">
-            <h3 className="d-flex justify-content-center fg-default-1" style={{marginTop:"2rem"}}>
+            <h3
+              className="d-flex justify-content-center fg-default-1"
+              style={{ marginTop: "2rem" }}
+            >
               Scrap Prices
             </h3>
 
@@ -42,7 +43,7 @@ const NewRates = () => {
                   type="button"
                   onClick={() => setActive("Paper")}
                   className={
-                    active == "Paper"
+                    active === "Paper"
                       ? "active col p-2 m-4 d-block"
                       : "col p-2 m-4 d-block"
                   }
@@ -54,7 +55,7 @@ const NewRates = () => {
                         width="35"
                         height="35"
                         viewBox="0 0 35 35"
-                        fill={active == "Paper" ? "white" : "currentcolor"}
+                        fill={active === "Paper" ? "white" : "currentcolor"}
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
@@ -69,7 +70,7 @@ const NewRates = () => {
                         ></path>
                       </svg>
                     </span>
-                    <div className={active == "Paper" ? "active" : ""}>
+                    <div className={active === "Paper" ? "active" : ""}>
                       Paper
                     </div>
                   </div>
@@ -79,7 +80,7 @@ const NewRates = () => {
                   type="button"
                   onClick={() => setActive("Plastic")}
                   className={
-                    active == "Plastic"
+                    active === "Plastic"
                       ? "active col p-2 m-4 d-block"
                       : "col p-2 m-4 d-block"
                   }
@@ -91,7 +92,7 @@ const NewRates = () => {
                         width="35"
                         height="35"
                         viewBox="0 0 35 35"
-                        fill={active == "Plastic" ? "white" : "currentcolor"}
+                        fill={active === "Plastic" ? "white" : "currentcolor"}
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path d="M21 15.0461L20.0127 14H14.9873L14 15.0461V25H21V15.0461Z"></path>
@@ -103,7 +104,7 @@ const NewRates = () => {
                         ></path>
                       </svg>
                     </span>
-                    <div className={active == "Plastic" ? "active" : ""}>
+                    <div className={active === "Plastic" ? "active" : ""}>
                       Plastic
                     </div>
                   </div>
@@ -113,7 +114,7 @@ const NewRates = () => {
                   type="button"
                   onClick={() => setActive("Metal")}
                   className={
-                    active == "Metal"
+                    active === "Metal"
                       ? "active col p-2 m-4 d-block"
                       : "col p-2 m-4 d-block"
                   }
@@ -125,7 +126,7 @@ const NewRates = () => {
                         width="35"
                         height="35"
                         viewBox="0 0 35 35"
-                        fill={active == "Metal" ? "white" : "currentcolor"}
+                        fill={active === "Metal" ? "white" : "currentcolor"}
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
@@ -144,7 +145,7 @@ const NewRates = () => {
                         ></path>
                       </svg>
                     </span>
-                    <div className={active == "Metal" ? "active" : ""}>
+                    <div className={active === "Metal" ? "active" : ""}>
                       Metal
                     </div>
                   </div>
@@ -154,7 +155,7 @@ const NewRates = () => {
                   type="button"
                   onClick={() => setActive("E-Waste")}
                   className={
-                    active == "E-Waste"
+                    active === "E-Waste"
                       ? "active col p-2 m-4 d-block"
                       : "col p-2 m-4 d-block"
                   }
@@ -165,7 +166,7 @@ const NewRates = () => {
                         width="35"
                         height="35"
                         viewBox="0 0 35 35"
-                        fill={active == "E-Waste" ? "white" : "currentcolor"}
+                        fill={active === "E-Waste" ? "white" : "currentcolor"}
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
@@ -180,7 +181,7 @@ const NewRates = () => {
                         ></path>
                       </svg>
                     </span>
-                    <div className={active == "E-Waste" ? "active" : ""}>
+                    <div className={active === "E-Waste" ? "active" : ""}>
                       E-Waste
                     </div>
                   </div>
@@ -190,7 +191,7 @@ const NewRates = () => {
                   type="button"
                   onClick={() => setActive("Others")}
                   className={
-                    active == "Others"
+                    active === "Others"
                       ? "active col p-2 m-4 d-block"
                       : "col p-2 m-4 d-block"
                   }
@@ -201,7 +202,7 @@ const NewRates = () => {
                         width="35"
                         height="35"
                         viewBox="0 0 35 35"
-                        fill={active == "Others" ? "white" : "currentcolor"}
+                        fill={active === "Others" ? "white" : "currentcolor"}
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
@@ -211,7 +212,7 @@ const NewRates = () => {
                         ></path>
                       </svg>
                     </span>
-                    <div className={active == "Others" ? "active" : ""}>
+                    <div className={active === "Others" ? "active" : ""}>
                       Others
                     </div>
                   </div>
@@ -262,13 +263,8 @@ const NewRates = () => {
               </div>
             </div>
           </div>
-     
-     </div>
-
-     </div>
-
-       
-     
+        </div>
+      </div>
     </>
   );
 };

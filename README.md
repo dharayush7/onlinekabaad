@@ -2,7 +2,7 @@
 
 ## Overview
 
-GoEasy is a React-based web application designed to streamline the process of managing and recycling waste materials. The platform provides features for individuals and businesses to connect with recycling services, track rates, and learn about sustainable practices.
+Online Kabaad is a React-based web application designed to streamline the process of managing and recycling waste materials. The platform provides features for individuals and businesses to connect with recycling services, track rates, and learn about sustainable practices.
 
 ## Features
 

@@ -1,4 +1,4 @@
-# GoEasy - Online Kabaad
+# Online Kabaad
 
 ## Overview
 
